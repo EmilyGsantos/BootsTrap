@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/mala-de-viagem.png">
+    <title>Agência de Viagens / Bon Voyage</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> <!--Link do js-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"><!--Link do bootstrap-->
+</head>
+<body>
+    <div class="mx-auto p-2" style="width:50px;" >
+        <img src="img/bussola.png" alt="Bussula-imagem da logo da agencia" height="50px">
+      </div>
+  <h1 class="text-center">Bon Voyage </h1>
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-engines" viewBox="0 0 16 16">
+            <path d="M8 0c-.787 0-1.292.592-1.572 1.151A4.35 4.35 0 0 0 6 3v3.691l-2 1V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.191l-1.17.585A1.5 1.5 0 0 0 0 10.618V12a.5.5 0 0 0 .582.493l1.631-.272.313.937a.5.5 0 0 0 .948 0l.405-1.214 2.21-.369.375 2.253-1.318 1.318A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .354-.854l-1.318-1.318.375-2.253 2.21.369.405 1.214a.5.5 0 0 0 .948 0l.313-.937 1.63.272A.5.5 0 0 0 16 12v-1.382a1.5 1.5 0 0 0-.83-1.342L14 8.691V7.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v.191l-2-1V3c0-.568-.14-1.271-.428-1.849C9.292.591 8.787 0 8 0M7 3c0-.432.11-.979.322-1.401C7.542 1.159 7.787 1 8 1s.458.158.678.599C8.889 2.02 9 2.569 9 3v4a.5.5 0 0 0 .276.447l5.448 2.724a.5.5 0 0 1 .276.447v.792l-5.418-.903a.5.5 0 0 0-.575.41l-.5 3a.5.5 0 0 0 .14.437l.646.646H6.707l.647-.646a.5.5 0 0 0 .14-.436l-.5-3a.5.5 0 0 0-.576-.411L1 11.41v-.792a.5.5 0 0 1 .276-.447l5.448-2.724A.5.5 0 0 0 7 7z"/>
+          </svg>
+          <li class="nav-item">
+            <a class="nav-link" href="#" >Passagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hospedagem.html">Hospedagem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carros.html">Carros</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="cad.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+ <br>
+
+ <h2 class="text-center text-danger">SUAS PASSAGENS VOCE ENCONTRA AQUI NA BONVOYAGE</h2>
+  <!--Buscador-->
+  <div class="m-3 cointainer text-center">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <form  class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+          <div class="input-group input-group-sm">
+            <input type="text" class="form-control" placeholder="Digite aqui o que procura">
+            <button class="btn btn-danger">Buscar</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-12 col-md-7">
+         <div class="s-flex flex-row-reverse justify-content-center justify-content-md-start"><!--alinhamento á direita-->
+            <form class="d-inline-block">
+              <select class="form-select form-select-sm">
+                <option >Ordernar Nacionais</option>
+                <option >Ordernar por Internacionais</option>
+              </select>
+            </form>
+         </div>
+      </div>
+    </div>
+</div>
+ <br>
+  <section class="text-center">
+    <img src="img/nacionais.png" class="img-fluid" width="50%" height="50%" alt="imagem decorativa viagens nacionais">
+  </section><br>
+  <hr>
+  <div class="container text-center p-3">
+    <div class="row">
+        <div class="card m-3" style="width: 18rem;">
+          <img src="img/rio.jpg" class="card-img-top" alt="carro sandero preta">
+          <div class="card-body">
+            <h5 class="card-title">Rio de Janeiro</h5>
+            <p class="card-text">Taxas incluidas voo direto</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A partir de </li>
+            <li class="list-group-item">R$ 1.188,99</li>
+          </ul>
+        </div>
+              <div class="card m-3" style="width: 18rem; ">
+                <img src="https://mulheresqueviajamsozinhas.com.br/wp-content/uploads/2021/03/IMG_5460.jpeg" class="card-img-top" alt="carro sandero preta">
+                <div class="card-body">
+                  <h5 class="card-title">Curitiba</h5>
+                  <p class="card-text">Taxas incluidas voo direto</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">A partir de</li>
+                  <li class="list-group-item">R$ 1.400,99</li>
+                </ul>
+              </div>
+              
+
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/11/23/913870/20221123133621542396o.jpg" class="card-img-top" alt="carro sandero preta">
+                  <div class="card-body">
+                    <h5 class="card-title">Pernambuco Recife</h5>
+                    <p class="card-text">Taxas incluidas voo direto</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">A partir de</li>
+                    <li class="list-group-item">R$ 1.053</li>
+                  </ul>
+                </div>
+
+                
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="https://media.staticontent.com/media/pictures/a4fad098-99e3-497c-958a-c55ab60fc0cb/300x200" class="card-img-top" alt="carro sandero preta">
+                  <div class="card-body">
+                    <h5 class="card-title">Belo Horizonte</h5>
+                    <p class="card-text">Taxas incluidas voo direto, <br>Sem escala</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">A partir de</li>
+                    <li class="list-group-item">R$ 245</li>
+                  </ul>
+                </div>   
+                
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="https://www.civitatis.com/f/brasil/barreirinhas/tour-quad-parque-lencois-maranhenses-589x392.jpg" class="card-img-top" alt="carro sandero preta">
+                  <div class="card-body">
+                    <h5 class="card-title">Lençois Maranhenses</h5>
+                    <p class="card-text">Taxas incluidas voo direto</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">A partir de</li>
+                    <li class="list-group-item">R$ 1.333,00</li>
+                  </ul>
+                </div>   
+                
+                <div class="card m-3" style="width: 18rem;">
+                  <img src="https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2020/11/Topo-Minas-Gerais.jpg" class="card-img-top" alt="carro sandero preta">
+                  <div class="card-body">
+                    <h5 class="card-title">Minas Gerais</h5>
+                    <p class="card-text">Taxas incluidas voo direto</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Diaria a partir de</li>
+                    <li class="list-group-item">R$550,70</li>
+                  </ul>
+       </div>                  
+  </div>        
+  <br>
+
+  <div class="grid gap-0 row-gap-3">
+    <div class="p-2 g-col-6">
+      <img src="https://tpc.googlesyndication.com/simgad/6674556272100988196" alt="" ><br>
+    </div>
+    <div class="p-2 g-col-6">
+      <img src="" alt="" ><br>
+    </div>
+  </div>
+
+    <!-- FOOTER -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <p class="float-end"><a href="#">De volta ao topo</a></p>
+    <div class="cointainer text-center text-md-left">
+      <div class="row text-center text-md-left"></div>
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-center text-warning">BON VOYAGE</h5>
+        <p>Email:bonvoyageairplan@gmail.com</p>
+        <p>Telefone:(11)436545654</p>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
